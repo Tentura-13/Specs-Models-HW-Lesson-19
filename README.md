@@ -1,1 +1,2 @@
-# Specs-Models-HW-Lesson-19
+# Homework Lesson #19
+Примеры тестов с использованием API запросов на сайт https://reqres.in/ с использованием спецификаций, моделей и проверок с применением [Groovy](https://groovy-lang.org/documentation.html).
