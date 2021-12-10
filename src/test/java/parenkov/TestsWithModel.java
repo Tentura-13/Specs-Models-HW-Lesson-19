@@ -11,7 +11,7 @@ import static parenkov.Specs.createUserResponse;
 import static parenkov.Specs.baseSuccessfulResponse;
 import static parenkov.Specs.unsuccessfulRegistrationResponse;
 
-public class TestsWithSpecsAndModel {
+public class TestsWithModel {
     @Test
     void createUser() {
         User data = given()
@@ -76,7 +76,7 @@ public class TestsWithSpecsAndModel {
     }
 
     @Test
-    void singleUser() {
+    void userSupport() {
         UserSupport support = given()
                 .spec(baseRequest)
                 .when()
