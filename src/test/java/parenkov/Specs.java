@@ -29,4 +29,19 @@ public class Specs {
             .expectStatusCode(400)
             .expectBody("error", is("Missing email or username"))
             .build();
+
+
+
+    public static RequestSpecification request = with()
+            .baseUri("https://reqres.in")
+            .basePath("/api")
+            .log().all()
+            .contentType(ContentType.JSON);
+
+    public static ResponseSpecification responseSpec = new ResponseSpecBuilder()
+            .expectStatusCode(200)
+//            .expectBody(containsString("success"))
+            .build();
+
+
 }
