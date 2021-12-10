@@ -80,7 +80,7 @@ public class TestsWithModel {
         UserSupport support = given()
                 .spec(baseRequest)
                 .when()
-                .get("/users/2")
+                .get("/users/10")
                 .then()
                 .spec(baseSuccessfulResponse)
                 .log().status()
